@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36D92BC3-DD2B-48CD-87D9-704B2963E5B7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sliding_Puzzle</RootNamespace>
+    <AssemblyName>Sliding Puzzle</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\clsClasificaciones.cs" />
+    <Compile Include="Clases\clsImage.cs" />
+    <Compile Include="Clases\clsTheme.cs" />
+    <Compile Include="Formularios\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmClasificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmClasificaciones.Designer.cs">
+      <DependentUpon>frmClasificaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmPuzzle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmPuzzle.Designer.cs">
+      <DependentUpon>frmPuzzle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmWin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmWin.Designer.cs">
+      <DependentUpon>frmWin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmClasificaciones.resx">
+      <DependentUpon>frmClasificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmPuzzle.resx">
+      <DependentUpon>frmPuzzle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmWin.resx">
+      <DependentUpon>frmWin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img25.png" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img25.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img24.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img23.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img22.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img21.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img20.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img19.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img18.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img17.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img16.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img15.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img14.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img13.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img12.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img11.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img10.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img9.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img8.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img7.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img6.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img5.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img4.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img3.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img2.png" />
+    <None Include="Imagenes\WoodSkin\Numbers\wood_img1.png" />
+    <None Include="Imagenes\WoodSkin\Others\wood_imgEmpty.png" />
+    <None Include="Imagenes\WoodSkin\Others\wood_BackGroundStatus.bmp" />
+    <None Include="Imagenes\WoodSkin\Others\wood_BackGroundMenu.png" />
+    <None Include="Imagenes\WoodSkin\Others\wood_TexturaFondo.png" />
+    <None Include="Imagenes\MetalSkin\Others\metal_TexturaFondo.bmp" />
+    <None Include="Imagenes\MetalSkin\Others\metal_imgEmpty.png" />
+    <None Include="Imagenes\MetalSkin\Others\metal_BackGroundStatus.bmp" />
+    <None Include="Imagenes\MetalSkin\Others\metal_BackGroundMenu.bmp" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img24.png" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img23.png" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img22.png" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img21.png" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img20.png" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img19.png" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img18.png" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img17.png" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img16.png" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img15.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img14.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img13.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img12.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img11.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img10.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img9.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img8.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img7.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img6.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img5.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img4.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img3.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img2.PNG" />
+    <None Include="Imagenes\MetalSkin\Numbers\metal_img1.PNG" />
+    <None Include="Imagenes\Arrows\arrow_up.png" />
+    <None Include="Imagenes\Arrows\arrow_right.png" />
+    <None Include="Imagenes\Arrows\arrow_left.png" />
+    <None Include="Imagenes\Arrows\arrow_down.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

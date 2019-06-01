@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+# SharpDevelop 3.2.0.5505
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tictacktoe", "tictacktoe.csproj", "{BE3E368C-7336-4CDE-ACC7-736FF2349C26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE3E368C-7336-4CDE-ACC7-736FF2349C26}.Debug|x86.Build.0 = Debug|x86
+		{BE3E368C-7336-4CDE-ACC7-736FF2349C26}.Debug|x86.ActiveCfg = Debug|x86
+		{BE3E368C-7336-4CDE-ACC7-736FF2349C26}.Release|x86.Build.0 = Release|x86
+		{BE3E368C-7336-4CDE-ACC7-736FF2349C26}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

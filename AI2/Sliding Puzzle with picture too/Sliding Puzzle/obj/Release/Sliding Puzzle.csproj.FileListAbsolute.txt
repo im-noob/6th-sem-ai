@@ -1,0 +1,33 @@
+C:\Documents and Settings\Alberto\Mis documentos\Visual Studio 2008\Projects\Sliding Puzzle\Sliding Puzzle\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Alberto\Mis documentos\Visual Studio 2008\Projects\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.frmPuzzle.resources
+C:\Documents and Settings\Alberto\Mis documentos\Visual Studio 2008\Projects\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.Properties.Resources.resources
+C:\Documents and Settings\Alberto\Mis documentos\Visual Studio 2008\Projects\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding Puzzle.csproj.GenerateResource.Cache
+C:\Documents and Settings\Alberto\Mis documentos\Visual Studio 2008\Projects\Sliding Puzzle\Sliding Puzzle\bin\Release\Sliding Puzzle.exe.config
+C:\Documents and Settings\Alberto\Mis documentos\Visual Studio 2008\Projects\Sliding Puzzle\Sliding Puzzle\bin\Release\Sliding Puzzle.exe
+C:\Documents and Settings\Alberto\Mis documentos\Visual Studio 2008\Projects\Sliding Puzzle\Sliding Puzzle\bin\Release\Sliding Puzzle.pdb
+C:\Documents and Settings\Alberto\Mis documentos\Visual Studio 2008\Projects\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding Puzzle.exe
+C:\Documents and Settings\Alberto\Mis documentos\Visual Studio 2008\Projects\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding Puzzle.pdb
+G:\Sliding Puzzle\Sliding Puzzle\obj\Release\ResolveAssemblyReference.cache
+G:\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.frmPuzzle.resources
+G:\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.Properties.Resources.resources
+G:\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding Puzzle.csproj.GenerateResource.Cache
+G:\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding Puzzle.exe
+G:\Sliding Puzzle\Sliding Puzzle\bin\Release\Sliding Puzzle.exe.config
+G:\Sliding Puzzle\Sliding Puzzle\bin\Release\Sliding Puzzle.exe
+G:\Sliding Puzzle\Sliding Puzzle\bin\Release\Sliding Puzzle.pdb
+G:\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding Puzzle.pdb
+G:\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.frmAbout.resources
+G:\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.frmWin.resources
+G:\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.frmClasificaciones.resources
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\bin\Release\Sliding Puzzle.exe.config
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding Puzzle.exe
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding Puzzle.pdb
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\bin\Release\Sliding Puzzle.exe
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\bin\Release\Sliding Puzzle.pdb
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.frmAbout.resources
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.frmClasificaciones.resources
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.frmPuzzle.resources
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.frmWin.resources
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding_Puzzle.Properties.Resources.resources
+C:\Users\Alberto\Desktop\Sliding Puzzle\Sliding Puzzle\obj\Release\Sliding Puzzle.csproj.GenerateResource.Cache

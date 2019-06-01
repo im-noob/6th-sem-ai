@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AI8TilesProgTH.ClassNode">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAIAAIgAAEAAAIAAAAAAAgBAAAABAAAgAAAAAA=</HashCode>
+      <FileName>ClassNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI8TilesProgTH.ClassPuzzle">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>KAASAAABBoAgSAACQAAAAACAABAQmAjFAAoAQAAoCEM=</HashCode>
+      <FileName>ClassPuzzle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI8TilesProgTH.ClassBFSSolver">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassBFSSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI8TilesProgTH.ClassDFSSolver">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassDFSSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI8TilesProgTH.ClassIDFSSolver">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassIDFSSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI8TilesProgTH.ClassAStarMisplacedTilesSolver">
+    <Position X="11.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassAStarMisplacedTilesSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI8TilesProgTH.ClassAStarManhattanDistanceSolver">
+    <Position X="14.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassAStarManhattanDistanceSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI8TilesProgTH.FormAutoPuzzleGen">
+    <Position X="17.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>EDAAQCAAICAIABAhAASAoQISgwUAAAAgAAAAACYAAAA=</HashCode>
+      <FileName>FormAutoPuzzleGen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI8TilesProgTH.FormManuelPuzzleGen">
+    <Position X="21.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAAACAAABQgAASAgQICAAEQAAAAIAAAACYAAAA=</HashCode>
+      <FileName>FormManuelPuzzleGen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AI8TilesProgTH.FormMAINGUI">
+    <Position X="25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>CBIgIAQgACkAAAAAABGBAAACQAAQAIAAQAAAIQAAAAQ=</HashCode>
+      <FileName>FormMAINGUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

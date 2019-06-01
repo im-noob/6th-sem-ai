@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="arrow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Arrows\arrow_down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Arrows\arrow_left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Arrows\arrow_right.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\Arrows\arrow_up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_BackGroundMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Others\metal_BackGroundMenu.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_BackGroundStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Others\metal_BackGroundStatus.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img1.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img10.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img11.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img12.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img13.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img14.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img15.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img17.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img18.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img19.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img2.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img20.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img22.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img23.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img3.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img4.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img5.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img6.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img7.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img8.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img9.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_imgEmpty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Others\metal_imgEmpty.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_TexturaFondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Others\metal_TexturaFondo.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_BackGroundMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Others\wood_BackGroundMenu.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_BackGroundStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Others\wood_BackGroundStatus.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img14.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img15.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img17.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img18.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img19.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img20.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img22.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img23.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_imgEmpty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Others\wood_imgEmpty.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_TexturaFondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Others\wood_TexturaFondo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metal_img25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\MetalSkin\Numbers\metal_img25.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wood_img25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\WoodSkin\Numbers\wood_img25.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

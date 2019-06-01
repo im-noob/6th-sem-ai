@@ -1,0 +1,7 @@
+C:\Users\aarav\Documents\Source\tictacktoe-C#\tictacktoe\bin\Debug\tictacktoe.exe
+C:\Users\aarav\Documents\Source\tictacktoe-C#\tictacktoe\bin\Debug\tictacktoe.pdb
+C:\Users\aarav\Documents\Source\tictacktoe-C#\tictacktoe\obj\x86\Debug\tictacktoe.csprojResolveAssemblyReference.cache
+C:\Users\aarav\Documents\Source\tictacktoe-C#\tictacktoe\obj\x86\Debug\tictacktoe.MainForm.resources
+C:\Users\aarav\Documents\Source\tictacktoe-C#\tictacktoe\obj\x86\Debug\tictacktoe.csproj.GenerateResource.Cache
+C:\Users\aarav\Documents\Source\tictacktoe-C#\tictacktoe\obj\x86\Debug\tictacktoe.exe
+C:\Users\aarav\Documents\Source\tictacktoe-C#\tictacktoe\obj\x86\Debug\tictacktoe.pdb
