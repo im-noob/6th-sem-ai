@@ -1,0 +1,88 @@
+*****************************************************
+To Be Viewed in Font - Courier New - size 10 - Normal
+*****************************************************
+
+H O W    T O    U S E   A * -  T R E E
+======================================
+
+1. Introduction
+
+   A* is a type of search algorithm. Some problems can be solved by representing the world in the initial state, and then for each action we can perform on the world we generate states for what the world would be like if we did so. If you do this until the world is in the state that we specified as a solution, then the route from the start to this goal state is the solution to your problem. A* not only reduces time complexity involved in DFS but also reduces memory requirement involved in BFS. Hence it brings balanced Best First Search. It falls in a broader category of Greedy Algorithms. 
+
+The Algorithm is explained in detail in the HowToPlay8Puzzle.txt ReadMe
+
+
+2. For your A* Tree to perform a successful search, take care that
+
+   1) U make a rough graph of the tree on paper
+   2) U assign proper weights to each node
+   3) Only Goal Node has all Null children
+   3) Every other node will possess atleast 1 not Null child. Its other children can be Null.
+   4) The tree should be a recurring tree. Recurring tree means tree having all nodes, except Goal Node, with at least one link to already existing nodes such as their predecessors like parent or grand parents or other siblings etc. 
+
+   Example:  The following tree is a successfull A* Tree that can search for any node. 
+   
+   It follows all rules specified above.
+   
+   'A' is start State with highest weight 100 & 'F' be Goal State with lowest weight 0
+
+   (A) #100
+    |
+    ---B #15
+       |
+       --D #3
+       | 
+       --E #4
+         |
+	 --G #7
+         |
+         --A #10
+       |
+       --[F] # 0
+    |
+    ---C #12
+       |
+       --B #5
+       |
+       --G #7
+         |
+         --H #9
+       |
+       --H #9
+         |
+         --B #5
+
+
+3. Steps to play with A* Tree
+
+   1) Click on New -> A* Tree
+
+   The Solver Screen Appears. With Cursor blinking in Start State Text Box. 
+   Input the Name of the Start State. It can be any valid String. (Say 'A')
+
+   2) Click on Add Button
+
+   U will see Start State Name (Say 'A') being added in the List Box. (Default Weight of A is 100)
+
+   3) Click on the Node N from List Box (Say 'A')
+
+   U will see Cursor blinking in UP Child Text Box. Up, Down, Left, Right are several options. 
+   
+   4) Write the children and their weights And Add them
+   
+   U want to add for Parent Node N the Children Names and their respective weights in 2 digits. If u do not want to add nay child then leave that chidren Name Text box empty.
+
+   e.g For 'A' as parent u might need to add 2 chidren
+
+         'B' Up Child Weight 5
+	 Leave Down child Name and Weight blank
+	 Leave Left child Name and Weight blank
+         'C' Right Child Weight 4
+
+   5) Repeat process thru step 2
+
+   6) When done deploying the tree, write the name of the Goal State in Goal Text Box
+
+   7) Click on 'Solve'
+
+   8) U will see the Yellow Output Text Box showing the Start to Goal traversal with their respective node weights.

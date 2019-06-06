@@ -1,0 +1,10 @@
+frmEightPuzzle = 66, 66, 732, 385, C, 22, 22, 688, 341, C
+EightPuzzleTree = 88, 88, 754, 407, C
+TreeOperations = 12, 108, 678, 427, C
+LinkedList = 22, 22, 656, 374, C
+LinkedListOperations = 44, 44, 678, 396, C
+PublicVariables = 132, 132, 738, 484, C
+frm8PuzzleMDIForm = 44, 44, 660, 410, C, 22, 22, 638, 388, C
+frmAStarTree = 88, 88, 704, 454, C, 0, 0, 616, 366, C
+frmHelpView = 0, 0, 572, 436, C, 154, 154, 726, 590, C
+frmAbout = 88, 88, 660, 524, C, 66, 66, 638, 502, C

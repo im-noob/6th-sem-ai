@@ -1,0 +1,107 @@
+*****************************************************
+To Be Viewed in Font - Courier New - size 10 - Normal
+*****************************************************
+
+H O W    T O    P L A Y    8  -  P U Z Z L E
+============================================
+
+1. Introduction
+
+The 8-puzzle - also known as the sliding-block/tile-puzzle - is one of the most popular instrument in the artificial intelligence (AI) studies. It belongs to AI exercises commonly referred as toy-problems.
+
+Toy problems - as the name implies - are somewhat fun.  They are not real-world problems, but they're useful because they are simple to define and confined.  It means that an exact description of the problems are possible, and all the factors that affects the problem are known (there is no need to worry about unpredictable factors such as weather or terrain).
+
+The 8-puzzle, along with chess, tic-tac-toe, and backgammon, has been used to study new search algorithms, neural-network, and  path-finding.  It's usually one of the first instrument that computer-scientists use to test a new search algorithm.
+
+2. Steps to play 8 Puzzle
+
+   1) When Menu Application loads, adjust the Settings for either 
+
+           * Automatic Shuffling 
+	     -------------------
+	   The Random Number generator is used for random shuffling of the Cells. The solver will always solve the problem.
+
+           * Manual Shuffling  
+	     ----------------
+	   User has to do the shuffling. The Solver will always solve the problem.
+
+	   * Manual Entry  
+	     ------------
+	   User has to enter values in the Board Cells. Solver may or may not be able to solve the problem depending upon the start state if it is solvable or unsolvable respectively.
+
+   2) Then Click on New -> 8 Puzzle Game
+           
+           The Solver Screen loads which shows dual set of boards .... START & GOAL. 
+           GOAL board is static to shows the final transition whereas Start State BOARD may show on of the following functionalities ...
+
+           * Automatic Shuffling 
+             -------------------
+           A Message box appears indicating the automatic shuffling to be taking place next. Text Cells are uneditable. 
+	   
+           * Manual Shuffling  
+             ----------------
+           On Clicking on any non empty cell adjacent to the blank cell (i.e Up, Down, Left, Right) the 2 cells are swapped. The Text Cells are uneditable. 
+
+           * Manual Entry  
+             ------------
+           User enters values between 1-8 for non empty cells and an '_' character for blank cell on the board . Text Cells are Editable with maximum length of 1 characters each.
+
+   3) Click 'Solve Game' button
+
+           On Clicking the Solve Game Button the Solver solves the problem and shows the tile transitions on the screen.
+           If the transition or the solution is not possible (which the algorithm determines after continuous looping for 10 Seconds), the solver prompt a message asking whether to continue or not. User can select Yes or No depending upon the need. But mostly in such cases the solution is actually not possible. Hence it is recommended to try for new set of inputs.
+
+3. About the Solver
+
+   This solver is a practical implementation of the A* Algorithm. The algorithm is as follows ...
+
+	1  Create a node containing the goal state node_goal  
+	2  Create a node containing the start state node_start  
+	3  Put node_start on the open list  
+	4  while the OPEN list is not empty  
+	5  {  
+	6  Get the node off the open list with the lowest f and call it node_current  
+	7  if node_current is the same state as node_goal we have found the solution; break from the while loop  
+	8      Generate each state node_successor that can come after node_current  
+	9      for each node_successor of node_current  
+	10      {  
+	11          Set the cost of node_successor to be the cost of node_current plus the cost to get to node_successor   from node_current  
+	12          find node_successor on the OPEN list  
+	13          if node_successor is on the OPEN list but the existing one is as good or better (has H less) then discard this successor and continue  
+	14          if node_successor is on the CLOSED list but the existing one is as good or better (has H less) then discard this successor and continue  
+	15          Remove occurences of node_successor from OPEN and CLOSED  
+	16          Set the parent of node_successor to node_current  
+	17          Set h to be the estimated distance to node_goal (Using the heuristic function)  
+	18          Add node_successor to the OPEN list  
+	19      }  
+	20      Add node_current to the CLOSED list  
+	21  }  
+
+   The Heuristic function is as follows
+
+       H(n') = F(n') + L(n'-n)
+
+   where 
+       n' is the child of a parent state n
+       H(n')   := Heuristic function for the state n'
+       F(n')   := The Sum of the number of misplaced non blank cells compared to Goal and the sum of the Manhatten Distances of each misplaced cell from goal positions
+       L(n'-n) := Level of n' (Level of n + 1) in the solution tree where root is at Level 0
+
+       Example:
+
+       Parent Level 3    Child      Goal
+       1 2 3             1 2 _      1 2 3
+       4 5 _             4 5 3      4 5 6 
+       6 7 8             6 7 8      7 8 _
+        
+       H(Child) = F(Child) + Level(Child-Parent)
+       
+       F(Child) = No of misplaced non blank Cells when compared to Goal State + Manhatten Distances (Horizontal X and vertcal Y distances) of misplaced cells from Goal positions
+
+                = 4 + { (1) + (1+2) + (1) + (1) } --> 3,6,7,8 are misplaced
+		= 4 + 6
+		= 10
+       
+       Level(Child-Parent) = Level(Parent)+1 = 3 + 1 = 4
+
+       H(Child) = 10 + 4 = 14
