@@ -1,0 +1,6 @@
+c:\users\aarav\documents\visual studio 2015\Projects\GreeySearch\GreeySearch\bin\Debug\GreeySearch.exe.config
+c:\users\aarav\documents\visual studio 2015\Projects\GreeySearch\GreeySearch\bin\Debug\GreeySearch.exe
+c:\users\aarav\documents\visual studio 2015\Projects\GreeySearch\GreeySearch\bin\Debug\GreeySearch.pdb
+c:\users\aarav\documents\visual studio 2015\Projects\GreeySearch\GreeySearch\obj\Debug\GreeySearch.exe
+c:\users\aarav\documents\visual studio 2015\Projects\GreeySearch\GreeySearch\obj\Debug\GreeySearch.pdb
+c:\users\aarav\documents\visual studio 2015\Projects\GreeySearch\GreeySearch\obj\Debug\GreeySearch.csprojResolveAssemblyReference.cache
